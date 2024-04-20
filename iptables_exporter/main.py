@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 
 import argparse
-import copy
 import re
 import iptc
 from prometheus_client import generate_latest
