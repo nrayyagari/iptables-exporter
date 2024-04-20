@@ -2,5 +2,8 @@
 
 from iptables_exporter.main import main
 
-
-main()
+try:
+    main()
+except Exception as e:
+    print(f"An error occurred: {str(e)}")
+    exit(1)
